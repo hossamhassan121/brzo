@@ -1,5 +1,5 @@
 .test1{
-    color: brown;
+    color: black;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 40px;
 font-weight: 700;
@@ -7,7 +7,7 @@ line-height: 50px;
 text-align: center;
 }
 .test2{
-    color: orange;
+    color: black;
     font-family: cursive;
     font-size: 20px;
     font-weight: 400;
@@ -35,8 +35,28 @@ input[type="text"]{
 }
 
 .m{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 70px;
     background: violet;
-    border: 10px orange solid;
+    border: 10px black solid;
+    
+    background-image: url("https://cdn.lynda.com/course/2822030/2822030-637537797146574080-16x9.jpg");
+    
+    background-size: contain;
+
+}
+.u{
+    border: 10px green solid;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left:500px;
+    margin-right: 300px;
+
+}
+.test8{
+    color: black;
+    font-family: fantasy;
+    font-size: 40px;
+    font font-weight: 600px;
+    text-align: center;
 }
