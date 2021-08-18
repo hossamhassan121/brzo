@@ -1,0 +1,42 @@
+.test1{
+    color: brown;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+}
+.test2{
+    color: orange;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+}
+
+.test3{
+    color:black;
+    font-family: fantasy;
+    font-size: medium;
+    line-height: 50px;
+    text-align: center;
+}
+input[type="submit"]{
+    background: chartreuse;
+    color:white;
+}
+input[type="email"]{
+   color: red;
+}
+
+input[type="text"]{
+    color: red;
+}
+
+.m{
+    height: 30px;
+    width: 30px;
+    background: violet;
+    border: 10px orange solid;
+}
