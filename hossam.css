@@ -8,7 +8,7 @@ text-align: center;
 }
 .test2{
     color: black;
-    font-family: cursive;
+    font-family: fantasy;
     font-size: 20px;
     font-weight: 400;
     line-height: 60px;
@@ -47,10 +47,12 @@ input[type="text"]{
 }
 .u{
     border: 10px green solid;
+    padding-left: 40px;
     padding: 10px;
     margin-top: 30px;
-    margin-left:500px;
-    margin-right: 300px;
+    margin-left:25%;
+    margin-right: 25%;
+    
 
 }
 .test8{
@@ -59,4 +61,94 @@ input[type="text"]{
     font-size: 40px;
     font font-weight: 600px;
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+
+
+}
+a:hover{
+    color:blue;
+    font-size: 20px;
+}
+span{
+    color:green;
+    display: block;
+}
+ul{
+    list-style-type: decimal;
+    color:black;
+    list-style-position: inside;
+    list-style-image: url("https://cdn.business2community.com/wp-content/uploads/2012/11/twitter-small-business-marketing.jpe");
+    background-color: green;
+    list-style: decimal inside;
+    position: relative;
+    left: 100px;
+}
+a:visited{
+
+color: #000;
+}
+.text:focus{
+    outline: blue;
+    border: 6px yellow solid;
+    
+    
+}
+p::first-letter{
+    color:yellowgreen;
+    font-size: 40px;
+}
+p::first-line{
+    color:red;
+}
+::selection{
+    color:yellow;
+}
+p::after{
+    content: "hossam";
+}
+p::before{
+    content: "THE";
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    display: inline-block;
+    width: 40%;
+    background: yellowgreen;
+    position: relative;
+    top: 40px;
+}
+@media screen and (max-width:400px) {
+    
+    .all{
+        display: block;
+        width: 100%;
+    }
+    body{
+        background:blue ;
+    }
+}
+
+
+
+@media screen and (min-width:401px) and (max-width:600px){
+    body{
+        background: blue;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:2000px){
+    body{
+        background:grey;
+    }
 }
