@@ -1,0 +1,27 @@
+
+    body{
+        padding: 9;
+        margin: 0;
+        font-family: sans-serif;
+        background: url(https://2.bp.blogspot.com/-iMCD73rsodQ/WbVfTjeYt_I/AAAAAAABAQM/X-c5d7Zw0igNV8OE-8MeAbrHEwfyv97QQCLcBGAs/s1600/777post%2B%252871%2529.jpg);
+        background-size: cover;
+
+    }
+    form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 350px;
+        height: 420px;
+        background: rgba(0, 0,0, .5);
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    .hossam-img{
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: auto;
+        margin-top: 24px;
+    }
