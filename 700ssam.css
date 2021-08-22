@@ -18,10 +18,63 @@
         border-radius: 15px;
         box-sizing: border-box;
     }
-    .hossam-img{
-        width: 100px;
-        height: 100px;
-        display: block;
-        margin: auto;
-        margin-top: 24px;
+    h2{
+        color: white;
+        text-align: center;
+        margin-top: 90px;
+    
     }
+    input[type="text"],[type="password"]{
+        position: absolute;
+        outline: none;
+        border:none;
+        width: 250px;
+        height: 35px;
+        border-bottom: 2px solid #0094ff ;
+        background: none;
+        padding: 5px;
+        color: #fff;
+    }
+input[type="text"]{
+    top: 140px;
+    left: 50px;
+}
+
+[type="password"]{
+    top: 210px;
+    left: 50px;
+}
+::placeholder{
+    color: #fff;
+}
+
+input[value="login"]{
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+input[value="login"]:hover{
+    background: #fff;
+    color: #0077ff;
+}
+
+p{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+p:hover{
+    color: #72c9ff;
+}
+
+
